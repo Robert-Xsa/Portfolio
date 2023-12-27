@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">Robert</span>Gembe</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#education" class="nav-item nav-link">Education</a>
+                <a href="#skill" class="nav-item nav-link">Skill</a>
+                <a href="#projects" class="nav-item nav-link">Projects</a>
+                <a href="#gallery" class="nav-item nav-link">Gallery</a>
+                <!-- Not complited 
+                <a href="#testimonial" class="nav-item nav-link">Review</a>
+                <a href="#blog" class="nav-item nav-link">Blog</a>
+                -->
+
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>        
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/Robert.jpg" alt="">
+                </div>
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-white font-weight-normal mb-3">I'm</h3>
+                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Robert Gembe</h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <div class="typed-text d-none">Mathematician, Data Scientist, Software Developer, Arficial Intelligent Engineer, Land Surveyor(Geomatician) </div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a href="Robert_CV.pdf" class="btn btn-outline-light mr-5">Download CV</a>
+
+                        <!--Not Completed 
+                        <button type="button" class="btn-play" data-toggle="modal"
+                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Play Video</h5>
+                        -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
+                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded w-100" src="img/Robert.jpg" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-4">Personal Infomation</h3>
+                    
+                    <div class="row mb-3">
+                        <p>
+                            I passionate data scientist with a keen interest in unraveling insights from complex datasets. 
+                            Armed with a solid foundation in statistics, machine learning, and python programming, 
+                            I leverage my analytical skills to derive meaningful patterns and solutions. 
+                            I thrive on transforming raw data into actionable strategies, contributing to informed decision-making. 
+                            With a commitment to lifelong learning, 
+                            I stay at the forefront of emerging technologies in the dynamic field of data science. 
+                            Let's embark on a journey of exploration and innovation through the lens of data.
+                        </p>
+                        <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Robert Gembe Marcely</span></h6></div>
+                        <!--Not necessary 
+                        <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">26 May 1995</span></h6></div>
+                        -->
+                        <div class="col-sm-6 py-2"><h6>Religion: <span class="text-secondary">Christian</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Place of birth : <span class="text-secondary">Ukonga-Ilala</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Nationality: <span class="text-secondary">Tanzanian </span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+255 757 685 690</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">gemberobert1@gmail.com</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>City: <span class="text-secondary">Dar es Salaam-Tanzania</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Language Proficiency: <span class="text-secondary">Kiswahili and English</span></h6></div>
+                    </div>
+                    <a href="" class="btn btn-outline-primary mr-4">Hire Me</a>
+                    <a href="" class="btn btn-outline-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Education Start -->
+    <div class="container-fluid py-5" id="education">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Educations</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Educations</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">High School and Universities</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Bachelor of science in computer systems and networks </h5>
+                            <p class="mb-2"><strong>Ardhi University</strong> | <small>2020 - 2023</small></p>
+                            <p>
+                                A Bachelor of Science in Computer Systems and Networks is an academic program that provides a comprehensive understanding of the design,
+                                implementation, and management of computer systems and networks.
+                                Students enrolled in this program gain a solid foundation in computer science principles,
+                                hardware architecture, software development, and network technologies.
+                            </p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Diploma in Geomatics</h5>
+                            <p class="mb-2"><strong>Ardhi Institute Morogoro</strong> | <small>2018-2020</small></p>
+                            <p>A Diploma in Geomatics is a specialized educational program that focuses on providing students with the knowledge and skills needed for a career in the field of geomatics,
+                               which involves the acquisition, analysis, interpretation, and management of spatial information. 
+                               Geomatics integrates various technologies, including surveying, mapping, remote sensing, 
+                               and Geographic Information Systems (GIS), to gather and analyze data related to the Earth's surface.</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Advanced certificate of secondary education examination (ACSEE)</h5>   
+                            <p class="mb-2"><strong>Kwiro high school</strong> | <small>2014-2016</small></p>
+                            <p>The Advanced Certificate of Secondary Education Examination (ACSEE) is an examination system used in Tanzania to assess students who have completed their secondary education.
+                               The examination is typically taken by students in the two final years of high school, 
+                               specifically in Form 5 and Form 6, and it serves as a critical assessment for admission to higher education institutions.
+                               I studed Physics,Chemistry and Mathematics(PCM).
+                               Studying physics, chemistry, and mathematics in the Advanced Certificate of Secondary Education Examination (ACSEE) 
+                               reflects a strong foundation in the physical sciences and mathematics.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Secondary Education And Primary Education</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Certificate of secondary education examination (CSEE)</h5>
+                                  
+                            <p class="mb-2"><strong>Murutunguru secondary school</strong> | <small>2010-2013 </small></p>
+                            <p>The Certificate of Secondary Education Examination (CSEE) is an important examination in the education system of Tanzania.</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Pre-form one</h5>
+                            <p class="mb-2"><strong>Sayusayu seminary</strong> | <small>2009</small></p>
+                            <p>"Pre-form one" generally refers to a preparatory or pre-secondary school level of education that students undergo before officially entering Form One of secondary school. 
+                                In many education systems, including Tanzania, the term "Form One" typically refers to the first year of secondary school education.
+                            </p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Certificate of primary education examination(CPEE)</h5>  
+                            <p class="mb-2"><strong>Sayusayu Primary School</strong> | <small> 2006-2008</small></p>
+                            <p>I studied standard five to standard seven. A school is located at Maswa-Shinyanga</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Certificate of primary education examination(CPEE)</h5>  
+                            <p class="mb-2"><strong>Ukonga primary School</strong> | <small> 2002-2005</small></p>
+                            <p>I studied standard one to standard four. A school located at Ilala-Dar es salaam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Education End -->
+
+
+    <!-- Skill Start -->
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
+            </div>
+            <!--Left Section-->
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Mathematics</h6>
+                            <h6 class="font-weight-bold">99%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Python</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Artificial Intelligent(AI) </h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Deep Learning</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Time Series Analysis</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Land Surveying</h6>
+                            <h6 class="font-weight-bold">80%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">HTML</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">CSS</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right Section-->
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Data Science</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Django</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Machine Learning</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Computer Vision</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Sequence Modeling</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Smart City Technology</h6>
+                            <h6 class="font-weight-bold">80%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Boostrap</h6>
+                            <h6 class="font-weight-bold">80%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Business Forecasting</h6>
+                            <h6 class="font-weight-bold">80%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skill End -->
+
+
+    <!-- Projects Start -->
+    <div class="container-fluid pt-5" id="projects">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Projects</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Projects</h1>
+            </div>
+            <div class="row pb-3">
+                <!--Bayes theorem Concepts start-->
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Bayes Theorem Concepts</h4>
+                    </div>
+                    <p>Bayes theorem Concepts through the use of tree diagram methods in training the data, 
+                       and predict unseen data. Also python programming language is used to demonstrate the probability concepts. 
+                       This is the type of supervised learning type of machine learning.
+                    </p>
+                    <a class="border-bottom border-primary text-decoration-none" href="https://github.com/Robert-Xsa/Bayes-theorem-Concepts">Read More</a>
+                </div>
+                <!--Bayes theorem Concepts end-->
+
+                <!--Convolution Neural network Basic Concepts start-->
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Convolution Neural network Basic Concepts</h4>
+                    </div>
+                    <p>A convolutional neural network (CNN) is a type of deep learning algorithm that is primarily used for image recognition and computer vision tasks. 
+                       CNNs are designed to automatically learn and extract hierarchical representations of visual data directly from raw pixel inputs. 
+                       This projects shows the basic concepts of a Convolution Neural Network by classifying both binary classification and multiple classification. 
+                       In binary classification, i used a datasets known as 'human or horse dataset'. 
+                       In multiple classification i used a dataset known as 'Dermnet'.
+                    </p>
+                    <a class="border-bottom border-primary text-decoration-none" href="https://github.com/Robert-Xsa/Convolution_Neural_network_Basic_Concepts">Read More</a>
+                </div>
+                <!--Convolution Neural network Basic Concepts end-->
+
+                <!--Sarcasm Detector Using Embeddings start-->
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Sarcasm Detector Using Embeddings</h4>
+                    </div>
+                    <p>A sarcasm detector is a tool or system designed to identify instances of sarcasm in written or spoken language. 
+                       The goal of a sarcasm detector is to analyze text or speech and determine whether the intended meaning is different from the literal meaning, 
+                       indicating the presence of sarcasm.
+                    </p>
+                    <a class="border-bottom border-primary text-decoration-none" href="https://github.com/Robert-Xsa/Sarcasm-Detector-Using-Embeddings">Read More</a>
+                </div>
+                <!--Sarcasm Detector Using Embeddings end-->
+
+                <!--Sequence modeling and time series analysis Concepts start-->
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fab fa-2x fa-apple service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Sequence modeling and time series analysis Concepts</h4>
+                    </div>
+                    <p>
+                        This is a crash cause which explain more about how to deal with time series data and sequence modeling.
+                    </p>
+                    <a class="border-bottom border-primary text-decoration-none" href="https://github.com/Robert-Xsa/Sequence-modeling-and-time-series-analysis-Concepts">Read More</a>
+                </div>
+                <!--Sequence modeling and time series analysis Concepts end-->
+
+                <!--Smart Traffic Light start-->
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-search service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Smart Traffic Light</h4>
+                    </div>
+                    <p>This was my last year dissertation.
+                       Computer vision was used to analyze the images collected from cameras,
+                       and counting the number of cars in order to control the traffic light based on cars counted on real time images collected.
+                       Case study was ubungo at kijazi interchange.
+                    </p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <!--Smart Traffic Light end-->
+
+                <!--Property taxation web based system start-->
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-edit service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Property taxation web based system</h4>
+                    </div>
+                    <p>
+                        The system developed using Django. It help to identify which customer have electricity or not in 
+                        a rural areas, and locate them through using the base map, also trace the route on how to reach to 
+                        that client.
+
+                    </p>
+                    <a class="border-bottom border-primary text-decoration-none" href="https://github.com/Robert-Xsa/Building_Taxations_Management_System">Read More</a>
+                </div>
+                <!--Property taxation web based system end-->
+
+                <!--Skin cancer detector-->
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Skin Cancer Detector</h4>
+                    </div>
+                    <p>
+                        I used neural network (deep learning) to detect the image if have been affected by skin cancer or 
+                        not. The project was conducted in kaggle notebook using a dermnet dataset. After trained the 
+                        model, I used Django to develop a simple web interface which allow user to interact with the 
+                        system.
+                    </p>
+                    <a class="border-bottom border-primary text-decoration-none" href="#">Read More</a>
+                </div>
+                <!--Skin detector end-->
+
+                <!--Crop recommendation system start-->
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Crop recommendation system</h4>
+                    </div>
+                    <p>
+                        The project aim to recommend the crops to farmers in order to allow them to cultivate 
+                        appropriate crops based on the soil profile.
+                        I used machine learning and Django(A python web framework).
+                    </p>
+                    <a class="border-bottom border-primary text-decoration-none" href="https://github.com/Robert-Xsa/Crop-Recommendation-System">Read More</a>
+                </div>
+                <!--Crop recommendation system end-->
+
+                <!--Model Evaluation Concepts start-->
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Model Evaluation Concepts</h4>
+                    </div>
+                    <p>
+                        The concepts used in this project are; Cross Validation and Grid Search. 
+                        Also different strategies like; 1.Stratified k-Fold Cross-Validation, 2.Leave-one-out Cross-validation, 
+                        3.Shuffle-split cross-validation, 4.Cross-Validation with Groups.
+                    </p>
+                    <a class="border-bottom border-primary text-decoration-none" href="https://github.com/Robert-Xsa/Model_Evaluation_Concepts/">Read More</a>
+                </div>
+                <!--Model Evaluation Concepts end-->
+
+                <!--Equipment Recording System Using RFID Tag start-->
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Equipment Recording System Using RFID Tag</h4>
+                    </div>
+                    <p>
+                        Its a web-based system developed using Django ands it use RFID tags to record equipments.
+                    </p>
+                    <a class="border-bottom border-primary text-decoration-none" href="https://github.com/Robert-Xsa/EQUIPMENT_RECORDING_SYSTEM_USING_RFID">Read More</a>
+                </div>
+                <!--Equipment Recording System Using RFID Tag end-->
+
+                <!--Monte Carlo Simulation start-->
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Monte Carlo Simulation</h4>
+                    </div>
+                    <p>
+                        Monte Carlo refers to a computational method that uses random sampling and statistical techniques to solve complex problems or estimate numerical results. 
+                        The method is named after the famous Monte Carlo Casino in Monaco, known for its games of chance.
+
+                        In Monte Carlo simulations, random numbers are generated repeatedly to model uncertain or random variables in a problem. 
+                        The technique is particularly useful when deterministic methods are impractical or too time-consuming. 
+                        I used this technique, In the context of evaluating the effectiveness between traditional traffic lights and smart traffic lights, 
+                        Monte Carlo simulation can be used to simulate various traffic scenarios and assess the performance of each system.
+                    </p>
+                    <a class="border-bottom border-primary text-decoration-none" href="https://github.com/Robert-Xsa/Monte_Carlo_Simulation/">Read More</a>
+                </div>
+                <!--Monte Carlo Simulation end-->
+
+                <!--Leveling Engineering Survey Desktop Application start-->
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Leveling Engineering Survey Desktop Application</h4>
+                    </div>
+                    <p>
+                        Leveling Desktop Application for Engineering Survey. 
+                        This can be used to help surveyors to solve leveling tasks, 
+                        it compute the levels of different points based on your requirements. 
+                        The concept behind this application is height of collimation method.
+                    </p>
+                    <a class="border-bottom border-primary text-decoration-none" href="https://github.com/Robert-Xsa/Leveling_Engineering_Survey/">Read More</a>
+                </div>
+                <!--Leveling Engineering Survey Desktop Application end-->
+
+                <!--Introduction to Natural Language Processing start-->
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Introduction to Natural Language Processing</h4>
+                    </div>
+                    <p>
+                        Natural Language Processing (NLP) is a field of artificial intelligence (AI) that focuses on the interaction between computers and humans through natural language. 
+                        It encompasses the development of algorithms and models to enable computers to understand, interpret, generate, and respond to human language in a valuable way.
+                        NLP aims to bridge the gap between human communication and computer understanding, making it possible for machines to work with text and speech data effectively.
+                    </p>
+                    <a class="border-bottom border-primary text-decoration-none" href="https://github.com/Robert-Xsa/Introduction-to-Natural-Language-Processing/">Read More</a>
+                </div>
+                <!--Introduction to Natural Language Processing end-->
+
+                <!--Introduction to Artificial Intelligent Text Generator Model Concepts start-->
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Introduction to Artificial Intelligent Text Generator Model Concepts</h4>
+                    </div>
+                    <p>
+                        An AI text generator refers to a type of artificial intelligence system or model designed to generate human-like text based on input data. 
+                        These models leverage natural language processing (NLP) techniques and machine learning algorithms to understand and produce coherent and contextually relevant text.
+                    </p>
+                    <a class="border-bottom border-primary text-decoration-none" href="https://github.com/Robert-Xsa/Introduction-to-Artificial-Intelligent-Text-Generator-Model-Concepts">Read More</a>
+                </div>
+                <!--Introduction to Artificial Intelligent Text Generator Model Concepts end-->
+
+                <!--Wi-Fi Passwords Discovery Tools start-->
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Wi-Fi Passwords Discovery Tools</h4>
+                    </div>
+                    <p>
+                        Wi-Fi Passwords Discovery Tools is special designed and developed in order to discover Wi-Fi profiles and their passwords. 
+                        This tool is currently run in windows operating system.It developed using python programing language.
+                    </p>
+                    <a class="border-bottom border-primary text-decoration-none" href="https://github.com/Robert-Xsa/Wi-Fi_Passwords_Discovery_Tool_/">Read More</a>
+                </div>
+                <!--Wi-Fi Passwords Discovery Tools end-->
+
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+
+    <!-- gallery Start -->
+    <div class="container-fluid pt-5 pb-3" id="gallery">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Gallery</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Design</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Development</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Marketing</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-1.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-2.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-3.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-4.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-5.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-6.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-6.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- gallery End -->
+
+
+    <!-- Testimonial Start -->
+    <!--Not Completed
+    <div class="container-fluid py-5" id="testimonial">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Review</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Clients Say</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                            <h5 class="font-weight-bold m-0">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                            <h5 class="font-weight-bold m-0">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                            <h5 class="font-weight-bold m-0">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Blog Start -->
+    <!--Not Completed
+    <div class="container-fluid pt-5" id="blog">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Blog</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Latest Blog</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-1.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-2.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-3.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form text-center">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="form-row">
+                                <div class="control-group col-sm-6">
+                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
+                                        required="required" data-validation-required-message="Please enter your name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group col-sm-6">
+                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
+                                        required="required" data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
+                                    required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
+                                    required="required"
+                                    data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-light btn-social mr-2" href="https://twitter.com/RobertGembe/"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.facebook.com/profile.php?id=100004211178996"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/robert-gembe-marcely/"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social" href="https://www.instagram.com/gembe_tz_tranter_bze/"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-light btn-social" href="https://github.com/Robert-Xsa"><i class="fab fa-github"></i></a>
+                <a class="btn btn-light btn-social" href="#"><i class="fab fa-telegram"></i></a>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+                <a class="text-white" href="#">Privacy</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Terms</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">FAQs</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Help</a>
+            </div>
+            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">2023</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="#">Robert Gembe</a>
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
